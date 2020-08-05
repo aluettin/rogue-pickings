@@ -1,0 +1,139 @@
+
+/***** BASE STYLES *****/
+
+body {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/***** GRID *****/
+
+.full-width {
+  margin: 0 auto;
+  overflow: auto;
+  width: 1200px;
+}
+
+.half-width {
+  float: left;
+  width: 600px;
+}
+
+/***** HEADER *****/
+
+header h1 {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 30px 0 30px 0;
+}
+
+header h1 span {
+  color: #77a466;
+}
+
+nav {
+  float: right;
+  padding: 40px 0;
+}
+
+nav ul {
+  padding-left: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+nav ul li a {
+  color: #77a466;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/***** TOP SECTION *****/
+
+#top-section img {
+  border-top: 2px solid #77a466;
+  border-bottom: 2px solid #77a466;
+}
+
+#top-section h2 {
+  color: #77a466;
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#top-section p {
+  font-size: 16px;
+  line-height: 25px;
+  padding-bottom: 25px;
+}
+
+/***** BOTTOM SECTION *****/
+
+#bottom-section .full-width {
+  border-top: 1px solid #dedbdc;
+  border-bottom: 1px solid #dedbdc;
+}
+
+#bottom-section h3 {
+  font-size: 12px;
+  line-height: 25px;
+  padding-top: 20px;
+}
+
+#bottom-section .section-one {
+  border-right: 1px solid #dedbdc;
+  float: left;
+  height: 215px;
+  width: 395px;
+}
+
+#bottom-section .section-one p {
+  color: #77a466;
+}
+
+#bottom-section .section-two {
+  border-right: 1px solid #dedbdc;
+  float: left;
+  height: 215px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 395px;
+}
+
+#bottom-section .section-two p {
+  font-size: 16px;
+  line-height: 21px;
+  padding-bottom: 10px;
+}
+
+#bottom-section .section-three {
+  float: left;
+  font-size: 16px;
+  height: 215px;
+  line-height: 24px;
+  padding-left: 30px;
+  width: 300px;
+}
+
+/***** FOOTER *****/
+
+#footer {
+  font-size: 16px;
+  line-height: 23px;
+}
+
+#footer .full-width {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+#footer .full-width span {
+  color: #77a466;
+  font-family: 'Galada', cursive;
+}
